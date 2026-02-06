@@ -9,7 +9,9 @@ const Hero = () => {
     >
       <div className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full">
         <img className="w-20" src={assets.group_profile} alt="" />
-        <p className="text-xs font-medium">Trusted by 10k + people</p>
+        <p className="text-xs font-medium dark:text-white/80">
+          Trusted by 10k + people
+        </p>
       </div>
 
       <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-23.75 max-w-5xl">
