@@ -61,7 +61,7 @@ const Navbar = ({ theme, setTheme }) => {
           className="w-8 sm:hidden"
         />
         <a
-          href="##contact-us"
+          href="#contact-us"
           className="text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all"
         >
           Connect <img src={assets.arrow_icon} width={14} alt="" />
